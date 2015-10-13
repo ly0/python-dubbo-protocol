@@ -6,6 +6,6 @@
 
 ```
 from dubborpc import DubboClient
-client = DubboClient('IP', PORT, encoding='gb18030’)
+client = DubboClient(IP, PORT, encoding='gb18030’)
 print(client.com.company.api.dubbo.interfaces.db.querySBInfoById(1))
 ```
